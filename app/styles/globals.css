@@ -39,6 +39,9 @@
   box-sizing: border-box;
   scroll-behavior: smooth !important;
   color-scheme: dark;
+  text-align: right;
+  direction: rtl;
+
 }
 
 .hash-span {

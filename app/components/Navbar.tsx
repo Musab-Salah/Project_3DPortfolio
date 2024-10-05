@@ -41,18 +41,18 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<Link href="https://github.com/omunite215">
+					{/* <Link href="https://github.com/omunite215"> */}
 						<Image
-							src="/logo.png"
-							width={80}
-							height={80}
+							src="/bigbang.svg"
+							width={40}
+							height={40}
 							alt="logo"
 							priority
 							className="object-contain"
 						/>
-					</Link>
+					{/* </Link> */}
 					<p className="text-white text-[18px] font-bold cursor-pointer flex">
-						Om &nbsp; <span className="sm:block hidden ">| omunite215</span>
+					Big  &nbsp; <span className="sm:block hidden "> Bang</span>
 					</p>
 				</div>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
 					))}
 				</ul>
 				<div className="mt-2 lg:block hidden">
-					<ResumeButton />
+					{/* <ResumeButton /> */}
 				</div>
 
 				<div className="sm:hidden flex flex-1 justify-end items-center">
@@ -107,7 +107,7 @@ const Navbar = () => {
 							))}
 							<li>
 								<div className="mt-2">
-									<ResumeButton />
+									{/* <ResumeButton /> */}
 								</div>
 							</li>
 						</ul>
