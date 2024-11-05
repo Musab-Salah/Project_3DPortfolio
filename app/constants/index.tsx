@@ -141,44 +141,17 @@ const experiences = [
 const testimonials = [
   {
     id: 1,
-    testimonial:
-      "Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
-    name: "Om Patel",
-    image: "/socialmedia/behance.svg",
-    link: "https://www.behance.net/omthecreator",
+    name: "thebigbang445",
+    image: "/socialmedia/Instagram_icon.png",
+    link: "https://www.instagram.com/thebigbang445/?igsh=YnY4Y3MzcjY1MGdl",
   },
   {
     id: 2,
-    testimonial:
-      "LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-    name: "Om Patel",
-    image: "/socialmedia/linkedin.svg",
-    link: "https://www.linkedin.com/in/om-patel-401068143/",
+    name: "The Big Bang",
+    image: "/socialmedia/Facebook-logo.png",
+    link: "https://www.facebook.com/profile.php?id=61566397993997",
   },
-  {
-    id: 3,
-    testimonial:
-      "Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio.",
-    name: "Om Patel",
-    image: "/socialmedia/dribble.svg",
-    link: "https://dribbble.com/om2121",
-  },
-  {
-    id: 4,
-    testimonial:
-      "Also do check out my UI/UX Portfolio where I have shared by design studies.",
-    name: "Om Patel",
-    image: "/socialmedia/portfolio.svg",
-    link: "https://omthecreator.netlify.app/",
-  },
-  {
-    id: 5,
-    testimonial:
-      "Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-    name: "Om Patel",
-    image: "/tech/github.webp",
-    link: "https://github.com/omunite215",
-  },
+
 ];
 
 const projects = [
