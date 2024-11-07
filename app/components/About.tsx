@@ -45,13 +45,12 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div >
         <p className="sectionSubText">مقدمة</p>
         <h2 className="styles.sectionHeadText">لمحة عامة</h2>
       </motion.div>
 
       <motion.p
-        variants={fadeIn("right", "spring", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
       >
         نحن فخورون بتقديم خدماتنا المتخصصة في التصميم، البرمجة، والتطوير وفقًا
