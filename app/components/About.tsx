@@ -51,7 +51,7 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("right", "spring", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-[3xl] leading-[30px]"
       >
         نحن فخورون بتقديم خدماتنا المتخصصة في التصميم، البرمجة، والتطوير وفقًا

@@ -51,23 +51,6 @@ const ProjectCard = ({
               alt="project_image"
               className="w-full h-full object-cover rounded-2xl"
             />
-            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-              <Image
-                src="/tech/github.webp"
-                width={24}
-                height={24}
-                alt="source-code"
-                className="object-contain"
-              />
-
-              <Image
-                src="/tech/netlify.webp"
-                width={24}
-                height={24}
-                alt="source code"
-                className="object-contain"
-              />
-            </div>
           </div>
 
           <div className="mt-5">
@@ -101,7 +84,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("0", "", 0.1, 1)}
+          variants={fadeIn("up", "spring", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           نحن نقدم مجموعة متنوعة من الخدمات لتلبية احتياجاتكم، بما في ذلك تطوير
@@ -112,6 +95,10 @@ const Works = () => {
           <br />
           سواء كنت بحاجة إلى موقع مبتكر أو تطبيق احترافي أو تصميم علامة تجارية
           يعكس رؤيتك، فريقنا هنا لتحقيق طموحاتك. 🚀
+          <br />
+          <br />
+          <br />
+          البعض من اعمالنا...
         </motion.p>
       </div>
 
