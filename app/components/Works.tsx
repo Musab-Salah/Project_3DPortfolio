@@ -37,7 +37,7 @@ const ProjectCard = ({
       <motion.div>
         <Tilt
           options={{
-            max: isMobile ? 0 : 45, // Disable tilt on mobile
+            max: 45, // Disable tilt on mobile
             scale: 1,
             speed: 450,
           }}
@@ -78,13 +78,12 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div>
         <h2 className="sectionHeadText">اعمالنا</h2>
       </motion.div>
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn("up", "spring", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           نحن نقدم مجموعة متنوعة من الخدمات لتلبية احتياجاتكم، بما في ذلك تطوير
